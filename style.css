@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(243,242,239);
+}
+
+/*NAVBAR-MENU-START*/
+.icon-items li {
+    list-style-type: none;
+    float: left;
+    padding-right: 28px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.card-body li {
+    list-style-type: none;
+    float: left;
+    padding-right: 25px;
+}
+
+.icon-items a{
+    color: #333333;
+    text-decoration: none;
+}
+/*NAVBAR-MENU-END*/
+
+/***********************************************************/
+
+/*CONTENT-B-START*/
+.content-b .buton {
+    font-size: 14px;
+    color: dodgerblue;
+    border-radius: 50px;
+    border: 1px solid dodgerblue;
+}
+
+.content-b .buton:hover {
+    color: white;
+    background-color: dodgerblue;
+}
+
+.buton-text {
+    color: #333333;
+    text-decoration: none;
+}
+
+.part-middle {
+    font-size: 13px;
+}
+
+footer{
+    width: 19rem !important;
+    position: sticky !important;
+    top: 4rem !important;
+    margin: 16px 0px 0px !important;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(139, 124, 124);
+    font-size: 11px;
+}
+/*CONTENT-B-END*/
+
+/***********************************************************/
+
+/*CONTENT-A-START*/
+
+.discover li {
+    list-style-type: none;
+}
+
+.en-yeni a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+
+/*CONTENT-A-END*/
+
+/***********************************************************/
+
+/*MAİN-CONTENT-START*/
+.search-div{
+    width: 30rem;
+    height: 40px;
+    display: inline;
+    border-radius: 50px;
+    border: 1px solid lightgray;
+
+}
+
+#search{
+    border: none;
+    font-weight: 600;
+    outline: none;
+    width: 26rem;
+
+}
+
+.middle-text{
+    font-size: 13px;
+}
+
+.middle-text small{
+    color: rgb(105, 102, 102);
+}
+
+.name{
+    color: #333333;
+    text-decoration: none;
+}
+
+.post-icon{
+    border-radius: 100%;
+    font-size: 14px;
+    height: 20px;
+    width: 20px;
+    color: white;
+    border: none;
+}
+
+.middle-footer button{
+    color:#5f5f5f;
+}
+/*MAİN-CONTENT-END*/
+
+
+
+/*FOOTER-İCON*/
+.footer-icon button{
+    border:none;
+    background-color: rgb(248,249,250);
+}
